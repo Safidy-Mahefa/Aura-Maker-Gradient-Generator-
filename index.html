@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aura Maker - Gradient Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="logo.png" class="logo">
+    <p>Crée facilement des dégradés et palettes inspirés de tes univers préférés.</p>
+    <a href="https://github.com/Safidy-Mahefa" target="_blank" >Voir sur Github</a>
+  </header>
+  
+  <!--Le conteneur principale du generateur-->
+  <div class="generator-container">
+      <!--Input + label-->
+      
+      <!-- Les boutons pour generer-->
+      <div class="button-container">
+        <button class="randomBtn"><img src="swap.svg" alt="swap"></button>
+      </div>
+      
+        <!--Le conteneur du couleur Dégradé -->
+        <div class="radient-container"></div>
+        
+        <!-- Code css à copier du gradient-->
+        <div class="copy">linear-gradient(to right, #FFB300, #FF6F00)</div>
+        <img src="copy.svg" alt="copy-button" class="copyBtn">
+  </div>
+  
+  <!--Section pour illustrer les couleurs-->
+  <section class="color-example-container">
+  </section>
+
+  <footer>
+    anime-gradient.js © 2025 – MIT<br>
+    par <a href="https://github.com/Safidy-Mahefa" target="_blank" style="color:#f26b38;">@Safidy-Mahefa</a>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
